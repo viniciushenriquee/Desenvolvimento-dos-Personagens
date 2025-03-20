@@ -1,10 +1,10 @@
 public class personagem {
  
  protected string nome;
- protected int forca;
- protected int vida;
+ protected int ateque;
+ protected int hp;
 
- public Personagem(String nome,int vida, int  forca){
+ public Personagem(String nome,int hp, int  ataque){
     this.nome = nome;
     this.hp = hp;
     this.forca = forca;

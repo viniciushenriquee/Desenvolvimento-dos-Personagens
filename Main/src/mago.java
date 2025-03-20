@@ -7,7 +7,7 @@ public class Mago extends Personagem {
         this.pontosMagia = pontosMagia;
     }
 
-    // Sobrescrevendo o método atacar para lançar um feitiço
+    
     @Override
     public void atacar(Personagem alvo) {
         if (this.pontosMagia > 0) {
@@ -19,7 +19,7 @@ public class Mago extends Personagem {
         }
     }
 
-    // Sobrescrevendo o método exibirInfo para incluir pontos de magia
+    
     @Override
     public void exibirInfo() {
         super.exibirInfo();
